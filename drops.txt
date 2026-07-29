@@ -1,0 +1,173 @@
+/ ============================================================
+/ Lucky SkyBlock Expansion — drops.txt
+/ Version: 1.0  |  Minecraft: 1.20.2  |  Loader: Fabric
+/ ============================================================
+/ This addon adds extra outcomes to the Lucky Block pool.
+/ It does NOT replace default outcomes — only adds new ones.
+/
+/ @luck  : -2 (very bad) to +2 (very good)
+/ @chance: multiplier — @chance=20 = 20x more likely than default
+/ group() : multiple things happen at once
+/ ============================================================
+
+/ ============================================================
+/ PHASE 1 — RESOURCE DROPS
+/ Essential SkyBlock resources to prevent softlocks
+/ ============================================================
+
+/ --- DIRT & GROUND ---
+type=item,ID=minecraft:dirt,amount=16@luck=0@chance=20
+type=item,ID=minecraft:rooted_dirt,amount=8@luck=0@chance=3
+type=item,ID=minecraft:coarse_dirt,amount=8@luck=0@chance=3
+type=item,ID=minecraft:moss_block,amount=8@luck=1@chance=5
+type=item,ID=minecraft:mycelium,amount=4@luck=1@chance=1
+
+/ --- STONE & MINERALS ---
+type=item,ID=minecraft:gravel,amount=16@luck=0@chance=15
+type=item,ID=minecraft:sand,amount=16@luck=0@chance=12
+type=item,ID=minecraft:cobblestone,amount=16@luck=0@chance=8
+type=item,ID=minecraft:flint,amount=8@luck=0@chance=6
+type=item,ID=minecraft:clay_ball,amount=8@luck=0@chance=5
+
+/ --- WOOD & SAPLINGS ---
+type=item,ID=minecraft:oak_log,amount=8@luck=0@chance=15
+type=item,ID=minecraft:oak_sapling,amount=2@luck=0@chance=12
+type=item,ID=minecraft:birch_sapling,amount=2@luck=0@chance=4
+type=item,ID=minecraft:spruce_sapling,amount=2@luck=0@chance=4
+type=item,ID=minecraft:jungle_sapling,amount=1@luck=0@chance=3
+type=item,ID=minecraft:cherry_sapling,amount=1@luck=1@chance=2
+type=item,ID=minecraft:bamboo,amount=8@luck=0@chance=6
+
+/ --- FARMING ---
+type=item,ID=minecraft:wheat_seeds,amount=8@luck=0@chance=8
+type=item,ID=minecraft:pumpkin_seeds,amount=4@luck=0@chance=4
+type=item,ID=minecraft:melon_seeds,amount=4@luck=0@chance=4
+type=item,ID=minecraft:sweet_berries,amount=8@luck=0@chance=4
+type=item,ID=minecraft:cocoa_beans,amount=8@luck=0@chance=3
+type=item,ID=minecraft:glow_berries,amount=8@luck=1@chance=2
+type=item,ID=minecraft:sugar_cane,amount=8@luck=0@chance=7
+type=item,ID=minecraft:cactus,amount=4@luck=0@chance=5
+
+/ --- BONE MEAL ---
+type=item,ID=minecraft:bone_meal,amount=16@luck=1@chance=10
+type=item,ID=minecraft:bone,amount=8@luck=0@chance=6
+
+/ --- WATER & FIRE ---
+type=item,ID=minecraft:water_bucket,amount=1@luck=1@chance=4
+type=item,ID=minecraft:lava_bucket,amount=1@luck=1@chance=3
+type=item,ID=minecraft:ice,amount=4@luck=0@chance=2
+type=item,ID=minecraft:packed_ice,amount=4@luck=1@chance=1
+
+/ --- PLANTS & DECORATION ---
+type=item,ID=minecraft:vine,amount=8@luck=0@chance=3
+type=item,ID=minecraft:lily_pad,amount=4@luck=0@chance=2
+type=item,ID=minecraft:kelp,amount=8@luck=0@chance=2
+type=item,ID=minecraft:sea_pickle,amount=4@luck=1@chance=1
+type=item,ID=minecraft:spore_blossom,amount=1@luck=1@chance=1
+type=item,ID=minecraft:pitcher_pod,amount=2@luck=1@chance=1
+type=item,ID=minecraft:fern,amount=4@luck=0@chance=2
+type=item,ID=minecraft:large_fern,amount=2@luck=0@chance=1
+
+/ ============================================================
+/ KITS — Multiple items at once (rarer, but very useful)
+/ ============================================================
+
+/ Builder Kit: basic island expansion materials
+group(\
+    type=item,ID=minecraft:dirt,amount=16;\
+    type=item,ID=minecraft:cobblestone,amount=16;\
+    type=item,ID=minecraft:oak_log,amount=8;\
+    type=item,ID=minecraft:oak_sapling,amount=2\
+)@luck=1@chance=2
+
+/ Farmer Kit: everything to start a farm
+group(\
+    type=item,ID=minecraft:wheat_seeds,amount=16;\
+    type=item,ID=minecraft:pumpkin_seeds,amount=8;\
+    type=item,ID=minecraft:melon_seeds,amount=8;\
+    type=item,ID=minecraft:bone_meal,amount=16;\
+    type=item,ID=minecraft:water_bucket,amount=1\
+)@luck=1@chance=1
+
+/ Desert Kit: for a desert-themed island
+group(\
+    type=item,ID=minecraft:sand,amount=32;\
+    type=item,ID=minecraft:cactus,amount=8;\
+    type=item,ID=minecraft:dead_bush,amount=4\
+)@luck=0@chance=1
+
+/ Forest Kit: bulk wood resources
+group(\
+    type=item,ID=minecraft:oak_log,amount=32;\
+    type=item,ID=minecraft:oak_sapling,amount=4;\
+    type=item,ID=minecraft:moss_block,amount=8;\
+    type=item,ID=minecraft:bone_meal,amount=16\
+)@luck=1@chance=1
+
+/ Ocean Kit: for water-based farming
+group(\
+    type=item,ID=minecraft:kelp,amount=16;\
+    type=item,ID=minecraft:sea_pickle,amount=4;\
+    type=item,ID=minecraft:lily_pad,amount=8;\
+    type=item,ID=minecraft:water_bucket,amount=2\
+)@luck=1@chance=1
+
+/ Nether Starter Kit: open the path to the Nether
+group(\
+    type=item,ID=minecraft:flint,amount=4;\
+    type=item,ID=minecraft:iron_ingot,amount=4;\
+    type=item,ID=minecraft:lava_bucket,amount=1;\
+    type=item,ID=minecraft:obsidian,amount=4\
+)@luck=2@chance=1
+
+/ ============================================================
+/ PHASE 2 — MINI ISLAND STRUCTURES
+/ Small themed islands generated around the player
+/ ============================================================
+
+type=structure,ID=sky_oak_island,posOffset=(0,0,0)@luck=1@chance=4
+type=structure,ID=sky_cherry_island,posOffset=(0,0,0)@luck=1@chance=2
+type=structure,ID=sky_snow_island,posOffset=(0,0,0)@luck=0@chance=2
+type=structure,ID=sky_jungle_island,posOffset=(0,0,0)@luck=1@chance=2
+type=structure,ID=sky_desert_island,posOffset=(0,0,0)@luck=0@chance=2
+type=structure,ID=sky_mushroom_island,posOffset=(0,0,0)@luck=0@chance=1
+
+/ ============================================================
+/ PHASE 3 — RARE SKYBLOCK UNLOCKS
+/ Very rare items that open new gameplay paths on SkyBlock
+/ ============================================================
+
+type=item,ID=minecraft:turtle_egg,amount=2@luck=2@chance=0.3
+type=item,ID=minecraft:bee_nest,amount=1@luck=2@chance=0.3
+type=item,ID=minecraft:sniffer_egg,amount=1@luck=2@chance=0.2
+type=item,ID=minecraft:frogspawn,amount=1@luck=2@chance=0.3
+type=item,ID=minecraft:coral_fan,amount=4@luck=1@chance=0.5
+
+/ Mob spawn eggs (rare gateway to new mobs on island)
+type=item,ID=minecraft:cow_spawn_egg,amount=1@luck=2@chance=0.5
+type=item,ID=minecraft:pig_spawn_egg,amount=1@luck=2@chance=0.5
+type=item,ID=minecraft:chicken_spawn_egg,amount=1@luck=2@chance=0.5
+type=item,ID=minecraft:sheep_spawn_egg,amount=1@luck=2@chance=0.5
+type=item,ID=minecraft:rabbit_spawn_egg,amount=1@luck=1@chance=0.3
+type=item,ID=minecraft:horse_spawn_egg,amount=1@luck=2@chance=0.2
+type=item,ID=minecraft:camel_spawn_egg,amount=1@luck=2@chance=0.1
+
+/ ============================================================
+/ PHASE 4 — JACKPOTS
+/ Rare "WOW" moments — 0.05% to 0.5% chance
+/ ============================================================
+
+type=item,ID=minecraft:diamond_block,amount=1@luck=2@chance=0.5
+type=item,ID=minecraft:netherite_scrap,amount=1@luck=2@chance=0.2
+type=item,ID=minecraft:enchanted_golden_apple,amount=1@luck=2@chance=0.15
+type=item,ID=minecraft:totem_of_undying,amount=1@luck=2@chance=0.15
+type=item,ID=minecraft:trident,amount=1@luck=2@chance=0.3
+type=item,ID=minecraft:heart_of_the_sea,amount=1@luck=2@chance=0.1
+type=item,ID=minecraft:elytra,amount=1@luck=2@chance=0.05
+type=item,ID=minecraft:beacon,amount=1@luck=2@chance=0.05
+
+/ Shulker Box filled with goodies
+group(\
+    type=block,ID=minecraft:shulker_box,posOffset=(0,0,0),\
+    NBTTag={Items:[{Slot:0b,id:"minecraft:diamond",Count:4b},{Slot:1b,id:"minecraft:iron_ingot",Count:32b},{Slot:2b,id:"minecraft:gold_ingot",Count:16b},{Slot:3b,id:"minecraft:emerald",Count:8b},{Slot:4b,id:"minecraft:ender_pearl",Count:4b}]}\
+)@luck=2@chance=0.2

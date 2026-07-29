@@ -1,0 +1,13 @@
+/ ============================================================
+/ Lucky SkyBlock Expansion — structures.txt
+/ Registers all mini-island structures with their center points
+/ centerX/Z = center of the island horizontally
+/ centerY   = vertical anchor (1 = bottom of island is 1 block below lucky block pos)
+/ ============================================================
+
+file=oak_island.luckystruct,ID=sky_oak_island,centerX=3,centerY=1,centerZ=3
+file=cherry_island.luckystruct,ID=sky_cherry_island,centerX=3,centerY=1,centerZ=3
+file=snow_island.luckystruct,ID=sky_snow_island,centerX=3,centerY=1,centerZ=3
+file=jungle_island.luckystruct,ID=sky_jungle_island,centerX=3,centerY=1,centerZ=3
+file=desert_island.luckystruct,ID=sky_desert_island,centerX=3,centerY=1,centerZ=3
+file=mushroom_island.luckystruct,ID=sky_mushroom_island,centerX=3,centerY=1,centerZ=3

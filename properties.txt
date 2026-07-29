@@ -1,0 +1,5 @@
+/ Lucky SkyBlock Expansion — properties.txt
+/ Addon does not spawn naturally — only adds outcomes to drops.txt
+/ Set spawnrate=0 to disable natural world generation of this block
+
+doDropsOnCreativeMode=true

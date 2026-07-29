@@ -1,0 +1,7 @@
+/ Lucky SkyBlock Expansion — plugin_init.txt
+/ Required initialization file for Lucky Block 13.0 (Fabric 1.20.2)
+/ block_id registers this addon's internal ID -- it does NOT create a separate
+/ block in-game, it just lets the loader pool drops.txt into the vanilla
+/ lucky:lucky_block outcomes. This property is mandatory even for addons
+/ that only add drops/structures.
+block_id=sky_expansion
