@@ -53,8 +53,8 @@ type=item,ID=minecraft:bone_meal,amount=16@luck=1@chance=10
 type=item,ID=minecraft:bone,amount=8@luck=0@chance=6
 
 / --- WATER & FIRE ---
-type=item,ID=minecraft:water_bucket,amount=1@luck=1@chance=4
-type=item,ID=minecraft:lava_bucket,amount=1@luck=1@chance=3
+/ (water_bucket / lava_bucket removed here — vanilla Lucky Block already
+/  gives these in its default bucket group; still available via Kits below)
 type=item,ID=minecraft:ice,amount=4@luck=0@chance=2
 type=item,ID=minecraft:packed_ice,amount=4@luck=1@chance=1
 
@@ -152,19 +152,32 @@ type=item,ID=minecraft:rabbit_spawn_egg,amount=1@luck=1@chance=0.3
 type=item,ID=minecraft:horse_spawn_egg,amount=1@luck=2@chance=0.2
 type=item,ID=minecraft:camel_spawn_egg,amount=1@luck=2@chance=0.1
 
+/ Villager: opens up trading on SkyBlock
+type=item,ID=minecraft:villager_spawn_egg,amount=1@luck=2@chance=0.15
+
+/ Hostile mob spawn eggs (for grinders/XP & drop farms)
+type=item,ID=minecraft:zombie_spawn_egg,amount=1@luck=1@chance=0.3
+type=item,ID=minecraft:skeleton_spawn_egg,amount=1@luck=1@chance=0.3
+type=item,ID=minecraft:spider_spawn_egg,amount=1@luck=1@chance=0.3
+type=item,ID=minecraft:creeper_spawn_egg,amount=1@luck=1@chance=0.2
+type=item,ID=minecraft:enderman_spawn_egg,amount=1@luck=2@chance=0.15
+
+/ Empty spawner: lets players build a proper mob farm (very rare, very strong)
+type=item,ID=minecraft:spawner,amount=1@luck=2@chance=0.03
+
 / ============================================================
 / PHASE 4 — JACKPOTS
 / Rare "WOW" moments — 0.05% to 0.5% chance
 / ============================================================
 
+/ (enchanted_golden_apple and beacon removed here — vanilla Lucky Block
+/  already gives both in its default @luck=2 pool)
 type=item,ID=minecraft:diamond_block,amount=1@luck=2@chance=0.5
 type=item,ID=minecraft:netherite_scrap,amount=1@luck=2@chance=0.2
-type=item,ID=minecraft:enchanted_golden_apple,amount=1@luck=2@chance=0.15
 type=item,ID=minecraft:totem_of_undying,amount=1@luck=2@chance=0.15
 type=item,ID=minecraft:trident,amount=1@luck=2@chance=0.3
 type=item,ID=minecraft:heart_of_the_sea,amount=1@luck=2@chance=0.1
 type=item,ID=minecraft:elytra,amount=1@luck=2@chance=0.05
-type=item,ID=minecraft:beacon,amount=1@luck=2@chance=0.05
 
 / Shulker Box filled with goodies
 group(\
