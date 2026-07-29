@@ -179,9 +179,3 @@ type=item,ID=minecraft:totem_of_undying,amount=1@luck=2@chance=0.15
 type=item,ID=minecraft:trident,amount=1@luck=2@chance=0.3
 type=item,ID=minecraft:heart_of_the_sea,amount=1@luck=2@chance=0.1
 type=item,ID=minecraft:elytra,amount=1@luck=2@chance=0.05
-
-/ Shulker Box filled with goodies
-group(\
-    type=block,ID=minecraft:shulker_box,posOffset=(0,0,0),\
-    NBTTag={Items:[{Slot:0b,id:"minecraft:diamond",Count:4b},{Slot:1b,id:"minecraft:iron_ingot",Count:32b},{Slot:2b,id:"minecraft:gold_ingot",Count:16b},{Slot:3b,id:"minecraft:emerald",Count:8b},{Slot:4b,id:"minecraft:ender_pearl",Count:4b}]}\
-)@luck=2@chance=0.2
