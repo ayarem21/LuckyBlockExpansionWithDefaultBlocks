@@ -1,4 +1,4 @@
-# LuckyBlockExpansionByDefaultBlocks
+# LuckyBlockExpansionWithDefaultBlocks
 Expands Lucky Block with SkyBlock-friendly drops, mini islands, starter kits, and progression resources for Minecraft Fabric 1.20.2.
 
 # Lucky SkyBlock Expansion
@@ -12,9 +12,9 @@ Expands Lucky Block with SkyBlock-friendly drops, mini islands, starter kits, an
 
 1. Make sure the **Lucky Block** mod is installed in your `.minecraft/mods/` folder.
 2. Launch Minecraft at least once so the mod can generate its required directories.
-3. **Copy the entire `LuckySkyBlockExpansion` folder** into:
+3. **Copy the entire `LuckyBlockExpansionWithDefaultBlocks` folder** into:
    ```
-   .minecraft/addons/lucky/LuckySkyBlockExpansion/
+   .minecraft/addons/lucky/LuckyBlockExpansionWithDefaultBlocks/
    ```
 4. Launch the game and enjoy!
 
@@ -24,7 +24,7 @@ Expands Lucky Block with SkyBlock-friendly drops, mini islands, starter kits, an
 .minecraft/
 └── addons/
     └── lucky/
-        └── LuckySkyBlockExpansion/
+        └── LuckyBlockExpansionWithDefaultBlocks/
             ├── pack.mcmeta
             ├── properties.txt
             ├── drops.txt
@@ -131,7 +131,7 @@ If the addon fails to load, check:
 Search for entries containing:
 
 ```
-LuckySkyBlockExpansion
+LuckyBlockExpansionWithDefaultBlocks
 ```
 
 ---
