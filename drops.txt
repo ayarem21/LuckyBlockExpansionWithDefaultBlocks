@@ -17,6 +17,7 @@
 
 / --- DIRT & GROUND ---
 type=item,ID=minecraft:dirt,amount=16@luck=0@chance=20
+type=item,ID=minecraft:grass_block,amount=16@luck=0@chance=8
 type=item,ID=minecraft:rooted_dirt,amount=8@luck=0@chance=3
 type=item,ID=minecraft:coarse_dirt,amount=8@luck=0@chance=3
 type=item,ID=minecraft:moss_block,amount=8@luck=1@chance=5
