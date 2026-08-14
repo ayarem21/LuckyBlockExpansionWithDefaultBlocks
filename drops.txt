@@ -26,20 +26,68 @@ type=item,ID=minecraft:mycelium,amount=4@luck=1@chance=1
 / --- STONE & MINERALS ---
 type=item,ID=minecraft:gravel,amount=16@luck=0@chance=15
 type=item,ID=minecraft:sand,amount=16@luck=0@chance=12
+type=item,ID=minecraft:suspicious_sand,amount=2@luck=1@chance=2
 type=item,ID=minecraft:cobblestone,amount=16@luck=0@chance=8
 type=item,ID=minecraft:flint,amount=8@luck=0@chance=6
 type=item,ID=minecraft:clay_ball,amount=8@luck=0@chance=5
 
-/ --- WOOD & SAPLINGS ---
-type=item,ID=minecraft:oak_log,amount=8@luck=0@chance=15
-type=item,ID=minecraft:oak_sapling,amount=2@luck=0@chance=12
+/ --- BUILDING STONES & DEEPSLATE ---
+type=item,ID=minecraft:deepslate,amount=16@luck=0@chance=6
+type=item,ID=minecraft:polished_deepslate,amount=16@luck=0@chance=4
+type=item,ID=minecraft:deepslate_bricks,amount=16@luck=0@chance=3
+type=item,ID=minecraft:deepslate_tiles,amount=16@luck=0@chance=3
+type=item,ID=minecraft:blackstone,amount=16@luck=0@chance=6
+type=item,ID=minecraft:polished_blackstone,amount=16@luck=0@chance=4
+type=item,ID=minecraft:polished_blackstone_bricks,amount=16@luck=0@chance=3
+type=item,ID=minecraft:basalt,amount=16@luck=0@chance=5
+type=item,ID=minecraft:polished_basalt,amount=16@luck=0@chance=4
+type=item,ID=minecraft:smooth_basalt,amount=16@luck=0@chance=3
+type=item,ID=minecraft:netherrack,amount=16@luck=0@chance=8
+type=item,ID=minecraft:crimson_nylium,amount=4@luck=1@chance=3
+type=item,ID=minecraft:warped_nylium,amount=4@luck=1@chance=3
+type=item,ID=minecraft:soul_sand,amount=8@luck=0@chance=4
+type=item,ID=minecraft:soul_soil,amount=8@luck=0@chance=4
+type=item,ID=minecraft:nether_bricks,amount=16@luck=0@chance=4
+type=item,ID=minecraft:red_nether_bricks,amount=16@luck=0@chance=3
+type=item,ID=minecraft:glowstone,amount=4@luck=1@chance=3
+type=item,ID=minecraft:shroomlight,amount=4@luck=1@chance=3
+type=item,ID=minecraft:magma_block,amount=4@luck=0@chance=3
+type=item,ID=minecraft:andesite,amount=16@luck=0@chance=5
+type=item,ID=minecraft:diorite,amount=16@luck=0@chance=5
+type=item,ID=minecraft:granite,amount=16@luck=0@chance=5
+type=item,ID=minecraft:tuff,amount=16@luck=0@chance=4
+type=item,ID=minecraft:calcite,amount=8@luck=0@chance=3
+type=item,ID=minecraft:bricks,amount=16@luck=0@chance=4
+type=item,ID=minecraft:terracotta,amount=16@luck=0@chance=4
+
+/ --- WOOD & LOGS ---
+type=item,ID=minecraft:oak_log,amount=8@luck=0@chance=12
+type=item,ID=minecraft:spruce_log,amount=8@luck=0@chance=6
+type=item,ID=minecraft:birch_log,amount=8@luck=0@chance=6
+type=item,ID=minecraft:jungle_log,amount=8@luck=0@chance=4
+type=item,ID=minecraft:acacia_log,amount=8@luck=0@chance=4
+type=item,ID=minecraft:dark_oak_log,amount=8@luck=0@chance=4
+type=item,ID=minecraft:cherry_log,amount=8@luck=1@chance=4
+type=item,ID=minecraft:mangrove_log,amount=8@luck=0@chance=3
+type=item,ID=minecraft:crimson_stem,amount=8@luck=1@chance=3
+type=item,ID=minecraft:warped_stem,amount=8@luck=1@chance=3
+
+/ --- SAPLINGS & FUNGI ---
+type=item,ID=minecraft:oak_sapling,amount=2@luck=0@chance=10
 type=item,ID=minecraft:birch_sapling,amount=2@luck=0@chance=4
 type=item,ID=minecraft:spruce_sapling,amount=2@luck=0@chance=4
-type=item,ID=minecraft:jungle_sapling,amount=1@luck=0@chance=3
-type=item,ID=minecraft:cherry_sapling,amount=1@luck=1@chance=2
+type=item,ID=minecraft:jungle_sapling,amount=2@luck=0@chance=3
+type=item,ID=minecraft:acacia_sapling,amount=2@luck=0@chance=3
+type=item,ID=minecraft:dark_oak_sapling,amount=4@luck=0@chance=3
+type=item,ID=minecraft:cherry_sapling,amount=2@luck=1@chance=2
+type=item,ID=minecraft:mangrove_propagule,amount=2@luck=0@chance=2
+type=item,ID=minecraft:azalea,amount=2@luck=0@chance=3
+type=item,ID=minecraft:flowering_azalea,amount=2@luck=1@chance=2
+type=item,ID=minecraft:crimson_fungus,amount=2@luck=1@chance=2
+type=item,ID=minecraft:warped_fungus,amount=2@luck=1@chance=2
 type=item,ID=minecraft:bamboo,amount=8@luck=0@chance=6
 
-/ --- FARMING ---
+/ --- FARMING & BREWING ---
 type=item,ID=minecraft:wheat_seeds,amount=8@luck=0@chance=8
 type=item,ID=minecraft:pumpkin_seeds,amount=4@luck=0@chance=4
 type=item,ID=minecraft:melon_seeds,amount=4@luck=0@chance=4
@@ -48,6 +96,7 @@ type=item,ID=minecraft:cocoa_beans,amount=8@luck=0@chance=3
 type=item,ID=minecraft:glow_berries,amount=8@luck=1@chance=2
 type=item,ID=minecraft:sugar_cane,amount=8@luck=0@chance=7
 type=item,ID=minecraft:cactus,amount=4@luck=0@chance=5
+type=item,ID=minecraft:nether_wart,amount=4@luck=1@chance=3
 
 / --- BONE MEAL ---
 type=item,ID=minecraft:bone_meal,amount=16@luck=1@chance=10
@@ -59,7 +108,7 @@ type=item,ID=minecraft:bone,amount=8@luck=0@chance=6
 type=item,ID=minecraft:ice,amount=4@luck=0@chance=2
 type=item,ID=minecraft:packed_ice,amount=4@luck=1@chance=1
 
-/ --- PLANTS & DECORATION ---
+/ --- PLANTS, FLOWERS & BUSHES ---
 type=item,ID=minecraft:vine,amount=8@luck=0@chance=3
 type=item,ID=minecraft:lily_pad,amount=4@luck=0@chance=2
 type=item,ID=minecraft:kelp,amount=8@luck=0@chance=2
@@ -68,6 +117,11 @@ type=item,ID=minecraft:spore_blossom,amount=1@luck=1@chance=1
 type=item,ID=minecraft:pitcher_pod,amount=2@luck=1@chance=1
 type=item,ID=minecraft:fern,amount=4@luck=0@chance=2
 type=item,ID=minecraft:large_fern,amount=2@luck=0@chance=1
+type=item,ID=minecraft:rose_bush,amount=2@luck=0@chance=3
+type=item,ID=minecraft:peony,amount=2@luck=0@chance=3
+type=item,ID=minecraft:lilac,amount=2@luck=0@chance=3
+type=item,ID=minecraft:sunflower,amount=2@luck=0@chance=3
+type=item,ID=minecraft:pink_petals,amount=8@luck=0@chance=3
 
 / ============================================================
 / KITS — Multiple items at once (rarer, but very useful)
@@ -105,6 +159,32 @@ group(\
     type=item,ID=minecraft:bone_meal,amount=16\
 )@luck=1@chance=1
 
+/ Lumberjack Kit: variety of logs for building
+group(\
+    type=item,ID=minecraft:oak_log,amount=8;\
+    type=item,ID=minecraft:spruce_log,amount=8;\
+    type=item,ID=minecraft:birch_log,amount=8;\
+    type=item,ID=minecraft:cherry_log,amount=8\
+)@luck=1@chance=1.5
+
+/ Nether Builder Kit: blackstone and basalt building materials
+group(\
+    type=item,ID=minecraft:blackstone,amount=16;\
+    type=item,ID=minecraft:polished_blackstone_bricks,amount=16;\
+    type=item,ID=minecraft:basalt,amount=16;\
+    type=item,ID=minecraft:polished_basalt,amount=16\
+)@luck=1@chance=1.5
+
+/ Nether Flora & Farming Kit: nylium, fungi, nether wart and bone meal
+group(\
+    type=item,ID=minecraft:crimson_nylium,amount=4;\
+    type=item,ID=minecraft:warped_nylium,amount=4;\
+    type=item,ID=minecraft:crimson_fungus,amount=2;\
+    type=item,ID=minecraft:warped_fungus,amount=2;\
+    type=item,ID=minecraft:nether_wart,amount=4;\
+    type=item,ID=minecraft:bone_meal,amount=16\
+)@luck=1@chance=1.5
+
 / Ocean Kit: for water-based farming
 group(\
     type=item,ID=minecraft:kelp,amount=16;\
@@ -112,6 +192,20 @@ group(\
     type=item,ID=minecraft:lily_pad,amount=8;\
     type=item,ID=minecraft:water_bucket,amount=2\
 )@luck=1@chance=1
+
+/ Coral Reef Kit: all 5 varieties of living corals, fans and blocks
+group(\
+    type=item,ID=minecraft:tube_coral_fan,amount=2;\
+    type=item,ID=minecraft:brain_coral_fan,amount=2;\
+    type=item,ID=minecraft:bubble_coral_fan,amount=2;\
+    type=item,ID=minecraft:fire_coral_fan,amount=2;\
+    type=item,ID=minecraft:horn_coral_fan,amount=2;\
+    type=item,ID=minecraft:tube_coral_block,amount=4;\
+    type=item,ID=minecraft:brain_coral_block,amount=4;\
+    type=item,ID=minecraft:bubble_coral_block,amount=4;\
+    type=item,ID=minecraft:fire_coral_block,amount=4;\
+    type=item,ID=minecraft:horn_coral_block,amount=4\
+)@luck=1@chance=1.5
 
 / Nether Starter Kit: open the path to the Nether
 group(\
@@ -142,7 +236,25 @@ type=item,ID=minecraft:turtle_egg,amount=2@luck=2@chance=0.3
 type=item,ID=minecraft:bee_nest,amount=1@luck=2@chance=0.3
 type=item,ID=minecraft:sniffer_egg,amount=1@luck=2@chance=0.2
 type=item,ID=minecraft:frogspawn,amount=1@luck=2@chance=0.3
-type=item,ID=minecraft:coral_fan,amount=4@luck=1@chance=0.5
+type=item,ID=minecraft:ancient_debris,amount=1@luck=2@chance=0.3
+type=item,ID=minecraft:netherite_upgrade_smithing_template,amount=1@luck=2@chance=0.2
+
+/ --- CORALS (All 5 varieties: Fans, Corals & Blocks) ---
+type=item,ID=minecraft:tube_coral_fan,amount=4@luck=1@chance=0.3
+type=item,ID=minecraft:brain_coral_fan,amount=4@luck=1@chance=0.3
+type=item,ID=minecraft:bubble_coral_fan,amount=4@luck=1@chance=0.3
+type=item,ID=minecraft:fire_coral_fan,amount=4@luck=1@chance=0.3
+type=item,ID=minecraft:horn_coral_fan,amount=4@luck=1@chance=0.3
+type=item,ID=minecraft:tube_coral,amount=4@luck=1@chance=0.3
+type=item,ID=minecraft:brain_coral,amount=4@luck=1@chance=0.3
+type=item,ID=minecraft:bubble_coral,amount=4@luck=1@chance=0.3
+type=item,ID=minecraft:fire_coral,amount=4@luck=1@chance=0.3
+type=item,ID=minecraft:horn_coral,amount=4@luck=1@chance=0.3
+type=item,ID=minecraft:tube_coral_block,amount=8@luck=1@chance=0.3
+type=item,ID=minecraft:brain_coral_block,amount=8@luck=1@chance=0.3
+type=item,ID=minecraft:bubble_coral_block,amount=8@luck=1@chance=0.3
+type=item,ID=minecraft:fire_coral_block,amount=8@luck=1@chance=0.3
+type=item,ID=minecraft:horn_coral_block,amount=8@luck=1@chance=0.3
 
 / Mob spawn eggs (rare gateway to new mobs on island)
 type=item,ID=minecraft:cow_spawn_egg,amount=1@luck=2@chance=0.5
@@ -175,6 +287,7 @@ type=item,ID=minecraft:spawner,amount=1@luck=2@chance=0.03
 /  already gives both in its default @luck=2 pool)
 type=item,ID=minecraft:diamond_block,amount=1@luck=2@chance=0.5
 type=item,ID=minecraft:netherite_scrap,amount=1@luck=2@chance=0.2
+type=item,ID=minecraft:netherite_ingot,amount=1@luck=2@chance=0.15
 type=item,ID=minecraft:totem_of_undying,amount=1@luck=2@chance=0.15
 type=item,ID=minecraft:trident,amount=1@luck=2@chance=0.3
 type=item,ID=minecraft:heart_of_the_sea,amount=1@luck=2@chance=0.1
