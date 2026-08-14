@@ -226,6 +226,13 @@ type=structure,ID=sky_snow_island,posOffset=(0,0,0)@luck=0@chance=2
 type=structure,ID=sky_jungle_island,posOffset=(0,0,0)@luck=1@chance=2
 type=structure,ID=sky_desert_island,posOffset=(0,0,0)@luck=0@chance=2
 type=structure,ID=sky_mushroom_island,posOffset=(0,0,0)@luck=0@chance=1
+type=structure,ID=sky_crimson_island,posOffset=(0,0,0)@luck=1@chance=2
+type=structure,ID=sky_warped_island,posOffset=(0,0,0)@luck=1@chance=2
+type=structure,ID=sky_ocean_island,posOffset=(0,0,0)@luck=1@chance=2
+type=structure,ID=sky_mangrove_island,posOffset=(0,0,0)@luck=1@chance=2
+type=structure,ID=sky_lush_island,posOffset=(0,0,0)@luck=1@chance=2
+type=structure,ID=sky_savanna_island,posOffset=(0,0,0)@luck=0@chance=2
+type=structure,ID=sky_dark_forest_island,posOffset=(0,0,0)@luck=1@chance=2
 
 / ============================================================
 / PHASE 3 — RARE SKYBLOCK UNLOCKS

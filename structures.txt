@@ -11,3 +11,10 @@ file=snow_island.luckystruct,ID=sky_snow_island,centerX=3,centerY=1,centerZ=3
 file=jungle_island.luckystruct,ID=sky_jungle_island,centerX=3,centerY=1,centerZ=3
 file=desert_island.luckystruct,ID=sky_desert_island,centerX=3,centerY=1,centerZ=3
 file=mushroom_island.luckystruct,ID=sky_mushroom_island,centerX=3,centerY=1,centerZ=3
+file=crimson_island.luckystruct,ID=sky_crimson_island,centerX=3,centerY=1,centerZ=3
+file=warped_island.luckystruct,ID=sky_warped_island,centerX=3,centerY=1,centerZ=3
+file=ocean_island.luckystruct,ID=sky_ocean_island,centerX=3,centerY=1,centerZ=3
+file=mangrove_island.luckystruct,ID=sky_mangrove_island,centerX=3,centerY=1,centerZ=3
+file=lush_island.luckystruct,ID=sky_lush_island,centerX=3,centerY=1,centerZ=3
+file=savanna_island.luckystruct,ID=sky_savanna_island,centerX=3,centerY=1,centerZ=3
+file=dark_forest_island.luckystruct,ID=sky_dark_forest_island,centerX=3,centerY=1,centerZ=3

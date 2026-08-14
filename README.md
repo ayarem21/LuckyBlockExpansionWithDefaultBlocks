@@ -35,7 +35,14 @@ Expands Lucky Block with SkyBlock-friendly drops, mini islands, starter kits, an
                 ├── snow_island.luckystruct
                 ├── jungle_island.luckystruct
                 ├── desert_island.luckystruct
-                └── mushroom_island.luckystruct
+                ├── mushroom_island.luckystruct
+                ├── crimson_island.luckystruct
+                ├── warped_island.luckystruct
+                ├── ocean_island.luckystruct
+                ├── mangrove_island.luckystruct
+                ├── lush_island.luckystruct
+                ├── savanna_island.luckystruct
+                └── dark_forest_island.luckystruct
 ```
 
 ---
@@ -57,15 +64,19 @@ Essential resources for SkyBlock progression without softlocks.
 | Sugar Cane | ×8 | ⭐⭐⭐ |
 | Water Bucket | ×1 | ⭐⭐ |
 | Lava Bucket | ×1 | ⭐⭐ |
-| ...and 20+ additional items | | |
+| ...and 50+ additional items | | |
 
 ### 🎒 Starter Kits (Group Drops)
 
 - **Builder Kit:** Dirt + Logs + Sapling + Cobblestone
 - **Farmer Kit:** Seeds + Bone Meal + Pumpkin/Melon Seeds + Water
 - **Forest Kit:** 32 Oak Logs + Moss + Saplings
-- **Ocean Kit:** Kelp + Sea Pickle + Lily Pad + Water
+- **Lumberjack Kit:** Oak, Spruce, Birch and Cherry Logs
 - **Desert Kit:** Sand + Cactus + Dead Bush
+- **Ocean Kit:** Kelp + Sea Pickle + Lily Pad + Water
+- **Coral Reef Kit:** Corals, Coral Fans, and Coral Blocks
+- **Nether Builder Kit:** Blackstone + Polished Blackstone Bricks + Basalt
+- **Nether Flora Kit:** Nylium + Crimson & Warped Fungi + Nether Wart
 - **Nether Starter Kit:** Flint + Iron + Lava + Obsidian *(rare)*
 
 ### 🏝 Phase 2 — Mini Islands (Structures)
@@ -78,8 +89,15 @@ Lucky Blocks can generate a small **7×7 island** next to the player.
 | 🌸 Cherry Island | Cherry tree + Pink Petals |
 | ❄️ Snow Island | Snow platform + Ice + Spruce tree |
 | 🌴 Jungle Island | Jungle tree + Cocoa + Ferns |
-| 🌵 Desert Island | Sand + Cacti + Dead Bushes |
+| 🌵 Desert Island | Solid Sandstone base + Sand + Cacti + Dead Bushes |
 | 🍄 Mushroom Island | Mycelium + Giant Mushroom + Small Mushrooms |
+| 🔥 Crimson Island | Crimson Nylium + Crimson Fungus Tree + Shroomlight |
+| 🔵 Warped Island | Warped Nylium + Warped Fungus Tree + Shroomlight |
+| 🪸 Ocean Island | Prismarine base + Water pool + Corals + Sea Pickles |
+| 🐊 Mangrove Island | Mud + Mangrove Tree with roots + Propagules |
+| 🌺 Lush Island | Moss platform + Azalea Tree + Spore Blossom |
+| 🌾 Savanna Island | Coarse Dirt + Acacia Tree + Dry Bushes |
+| 🌲 Dark Forest Island | Podzol + 2×2 Dark Oak Tree + Mushrooms |
 
 ### 🦋 Phase 3 — Rare SkyBlock Unlocks
 
